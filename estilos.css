@@ -1,0 +1,120 @@
+/* 1. SELETOR DE ELEMENTO: Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 2. SELETOR DE ID: Formata o cabeçalho único */
+#cabecalho-principal {
+    background-color: #111;
+    color: #ffd700; /* Amarelo ouro */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* 3. SELETOR DE CLASSE: Bloco da introdução histórica */
+.introducao {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.texto-contexto {
+    font-size: 1.05rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.lista-bandas {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* 4. PSEUDOCLASSE :hover: Efeito nos links de texto */
+.lista-bandas a:hover, .link-navegacao:hover {
+    color: #ff4500;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* 5. SELETOR DE CLASSE: Estrutura base das seções de perfil */
+.perfil-banda {
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Sugestão 1: Cores de fundo personalizadas para cada grupo */
+.banda-jota { background-color: #f0f7ff; border-left: 6px solid #0076ff; }       /* Azul Pop */
+.banda-paralamas { background-color: #f4fff0; border-left: 6px solid #2ea400; }  /* Verde Ska/Reggae */
+.banda-titas { background-color: #fff0f0; border-left: 6px solid #e10000; }      /* Vermelho Rock/Punk */
+.banda-skank { background-color: #fffbf0; border-left: 6px solid #e5a93b; }      /* Amarelo Ouro/Samba-Rock */
+
+.foto-grupo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    margin: 15px 0;
+    border: 2px solid #111;
+    border-radius: 4px;
+}
+
+/* Sugestão 2: Estilização do Botão do Spotify */
+.botao-spotify {
+    display: inline-block;
+    background-color: #1DB954; /* Verde oficial Spotify */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Pseudoclasse :hover para dar feedback visual interativo no botão */
+.botao-spotify:hover {
+    background-color: #1ed760;
+    transform: scale(1.04);
+}
+
+/* Formatação padrão da Tabela da página 2 */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #111;
+    color: #fff;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.imagem-destaque {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+    border: 3px solid #ffd700;
+}
